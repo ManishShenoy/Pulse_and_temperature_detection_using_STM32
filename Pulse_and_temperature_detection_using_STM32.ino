@@ -3,7 +3,7 @@
 #define REPORTING_PERIOD_MS     2000
 PulseOximeter pox;
 uint32_t tsLastReport = 0;
-const int sensor=PA0; // Assigning analog pin A5 to variable 'sensor'
+const int sensor=PA0; // Assigning analog pin A0 to variable 'sensor'
 float tempc; //variable to store temperature in degree Celsius
 float tempf; //variable to store temperature in Fahreinheit
 float vout; //temporary variable to hold sensor reading
